@@ -1,0 +1,3 @@
+// Place the code underneath on a waypoint marker for an AI vehicle that you want to disappear
+
+{deleteVehicle vehicle _x} forEach thislist;{deleteVehicle _x} forEach thislist; deleteGroup (group this);
